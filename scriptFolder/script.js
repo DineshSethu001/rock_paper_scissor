@@ -29,7 +29,7 @@ if(playGame){
             ?`playerOne:${playerOne} \nComputer:${computer}\n computer wins! `
             :playerOne === "scissors" && computer ==="rock"
             ?`playerOne:${playerOne} \nComputer:${computer}\n computer wins! `
-            :`playerOne:${playerOne} \nComputer:${computer}\n playerOne wins! `
+            :`playerOne:${playerOne} \nComputer:${computer}\n playerOne wins! `;
 
             alert(result);
             let playAgain = confirm("play again:)?");
